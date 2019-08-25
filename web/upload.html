@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <title>Upload</title>
+    </head>
+    <body>
+        <div class="buttons">
+        <h1>Upload ID</h1>
+        <form method="post" action="upload.jsp" enctype="multipart/form-data">
+             Select image for ID:
+            <input type="file" name="file" required=""  />( Max 5MB, Format=jpg )<br><br><br>
+            <INPUT type="submit" name="ok" value="Upload">
+        <a href ="logout.jsp"><span>
+        <input type="button" value = "Logout"></span></a>
+        
+        </form> 
+        </div>
+        </body>       
+        </html>
